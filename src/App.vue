@@ -62,7 +62,7 @@ export default {
     }
 
 
-    const API_KEY = "AIzaSyAyT5HCorKqYcLJ1VuK69_06q8DH8g_ioc";
+    const API_KEY = "xxx";
     // Access your API key (see "Set up your API key" above)
     const genAI = new GoogleGenerativeAI(API_KEY);
     async function gemini(value) {
